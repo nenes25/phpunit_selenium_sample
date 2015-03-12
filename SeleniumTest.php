@@ -2,7 +2,7 @@
 class SeleniumTest extends PHPUnit_Extensions_Selenium2TestCase
 {
 
-	$this->sampleUrl = 'http://www.google.fr';
+	public $sampleUrl = 'http://www.google.fr';
 
     protected function setUp()
     {
