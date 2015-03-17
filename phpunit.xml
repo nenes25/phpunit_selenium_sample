@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<phpunit bootstrap="bootstrap.php" convertErrorsToExceptions="true">
+  <testsuite name='Tests'>
+      <directory suffix='.php'>.</directory>
+ </testsuite>
+ <logging>
+     <log type="junit" target="./results.xml" logIncompleteSkipped="true"/>
+ </logging>  
+</phpunit>
